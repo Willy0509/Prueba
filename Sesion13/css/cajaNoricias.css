@@ -1,0 +1,11 @@
+#imagen{
+    float: right;
+}
+#texto{
+   background:skyblue;
+   position: relative;
+}
+#fecha{
+    float: right;
+    background: red;
+}
