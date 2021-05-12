@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+    grid-template-areas: "header header header" "nav section aside" "footer footer footer" ;
+}
+.a{
+    grid-area: head;
+    background-color: royalblue;
+}
+.b{
+    grid-area: nav;
+    background-color: saddlebrown;
+}
+.c{
+    grid-area: section;
+    background-color: seagreen;
+}
+.d{
+    grid-area: aside;
+    background-color: red;
+}
+.e{
+    grid-area: food;
+    background-color: rebeccapurple;
+}

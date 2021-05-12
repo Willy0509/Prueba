@@ -1,0 +1,20 @@
+.grid{
+    display: grid;
+    grid-template-areas: "head head" "menu main" "food food";
+}
+.a{
+    grid-area: head;
+    background-color: blue;
+}
+.b{
+    grid-area: menu;
+    background-color: blueviolet;
+}
+.c{
+    grid-area: main;
+    background-color: red;
+}
+.d{
+    grid-area: food;
+    background-color: royalblue;
+}

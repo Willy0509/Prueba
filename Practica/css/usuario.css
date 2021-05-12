@@ -1,0 +1,52 @@
+.div1{
+    background-color: blue;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    float: left;
+    width: 100px;
+}
+header{
+    font-size: 40px;
+    font-family: Calibri;
+}
+.tabla1{
+    background-color: black;
+}
+p{
+    text-align: justify
+}
+.dark{
+    float:right
+}
+.tabla2{
+    background-color: blue;
+}
+.td1{
+    height: 50px;
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+li{
+    color: black;
+}
+button{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+fieldset{
+    background-color: aquamarine;
+    align-content: center;
+    margin: auto;
+}
+label{
+    color: grey;
+}
