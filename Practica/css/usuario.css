@@ -1,13 +1,23 @@
 .div1{
-    background-color: blue;
+    background-color: skyblue;
+}
+.td1{
+    height: 50px;
+    width: 200px;
+    color: white;
+    text-align: center;
 }
 a{
     text-decoration: none;
     color: white;
 }
-img{
+.usuario{
     float: left;
+    
+    margin-right: 20px;
+    margin-left: 20px;
     width: 100px;
+    height:100px;
 }
 header{
     font-size: 40px;
@@ -16,21 +26,60 @@ header{
 .tabla1{
     background-color: black;
 }
+.div2{
+    background-color: blue;
+    float: right;
+    width: 250px;
+    height: 450px;
+}
+.subT1{
+    background-color: blueviolet;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+.subT2{
+    background-color: chocolate;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+}
+.div3{
+    position: relative;
+    margin-left: 20px;
+    margin-right: 300px;
+}
 p{
     text-align: justify
 }
 .dark{
-    float:right
+    float:right;
+    margin-left: 20px;
+}
+.concurso{
+    float: right;
+    margin-left: 20px;
+}
+.div4{
+    background-color: skyblue;
+    margin-block-start: 30px;
 }
 .tabla2{
-    background-color: blue;
+    width: 200;
+    height: 200;
 }
-.td1{
-    height: 50px;
-    width: 200px;
+.tabla3{
+    background-color: black;
+    width: 100%;
+}
+.td2{
     color: white;
     text-align: center;
 }
+
+
 li{
     color: black;
 }
