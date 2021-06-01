@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guardar Datos</title>
+</head>
+<body>
+    <div class="datosGuardados">
+        <label for="usuario">Nombre</label><br>
+        <input type="text" name="nombre" id="nombre"><br>
+            
+        <label for="contraseña">Número de celular</label><br>
+        <input type="number" name="numero" id="numero"><br>
+        <br>
+        <input type="button" onclick="guardarDatos()" value="Guardar Datos">
+        <p id="datos">Pulsa para ver tu Nombre y Número de celular</p>
+        <input type="button" onclick="recuperarDatos()" value="Recuperar Datos">
+    </div>
+    <script type="text/javascript" src="JS/agendaV1.js"></script>
+</body>
+</html>
