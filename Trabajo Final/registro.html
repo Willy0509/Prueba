@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despensa Peruana S.A.</title>
+    <link rel="icon" href="IMG/logo.ico">
+    <link rel="stylesheet" href="CSS/estiloIndex.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/swiper.min.css.css">
+    <link rel="stylesheet" href="CSS/estiloNosotros.css">
+    <link rel="stylesheet" href="CSS/estiloRegistrar.css">
+</head>
+
+<body>
+<!-- ------------------------------- Banner -------------------------------- -->
+<header>
+    <div class="contenedorInicio">
+        <div class="caja">
+            <img src="IMG/logo.jpeg" alt="right" width="210" height="160" style="margin: 10px;">
+        </div>
+        <div class="caja">
+            <h1 class="tituloPrincipal">Despensa Peruana S.A.</h1>
+        </div>
+
+        <span style="border: 2px solid rgb(11, 46, 245); margin: 50px;"></span>
+
+        <div style="margin: 30px;">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: center;">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="navitem" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navitem" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navitem" href="catálogo.html">Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="navitem" href="misionVision.html">Mi cuenta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="carrito.html" class="btn_abrir" style="width: 100%; margin: 10px; background-color:rgba(153, 50, 50, 0.788)">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="30" fill="currentColor" class="bi bi-cart4" viewBox="0 0 16 16">
+                                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                            </svg>
+                        </a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+         
+            <form action="../../form-result.php" method="post" target="_blank">
+            <p ><b style="color: white;;">
+                Búsqueda de material: </b><input type="search" name="busquedamaterial" placeholder="Nombre, material, costo...">
+                <input type="submit" value="Buscar">
+            </p>
+             </form>
+        </div>
+    </div>
+</header>
+
+<section>
+    <div class="regitrar">
+        <form >
+            <div class="titulo">
+                <h2>REGISTRO</h2>
+                <p>Configura tu cuenta. ¿Ya tienes una cuenta? <a href="index.html">Inicia Sesión</a></p>
+            </div>
+            <div class="otra" style="text-align: center;">
+                <p>También puedes iniciar sesión con:</p>
+                <button class="boton" style="background-color:skyblue;"><b><a href="https://web.facebook.com/?_rdc=1&_rdr" style="color: white;">Facebook</a></b></button><br>
+                <button class="boton" style="background-color: lightseagreen;"><b><a href="https://twitter.com/?lang=es" style="color: white;">Twitter</a> </b></button><br>
+                <button class="boton" style="background-color: red;"><b><a href="https://accounts.google.com/ServiceLogin/signinchooser?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%3Ftab%3Drm%26ogbl&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" style="color: white;">Google</a></b></button>
+            </div>
+            <span style="border: 2px solid purple; margin-left: 15px; height: 250px; margin-right: 15px;" class="linea"></span>
+            <div class="escri">
+                <label for="usuario">Usuario</label><br>
+                <input type="text" name="usuario" id="usuario"><br>
+                <label for="correo">Correo electrónico</label><br>
+                <input type="text" name="correo" id="correo"><br>
+                <label for="contraseña">Contraseña</label><br>
+                <input type="text" name="contraseña" id="contraseña"><br><br>
+                <label><input type="checkbox" id="cbox" value="first_checkbox"><a href="#">Acepto los términos y condiciones</a></label><br>
+                <button>Crear cuenta</button><br>
+            </div>
+        </form>
+    </div>
+</section>
+<br><br>
+<footer>
+    <div class="mapa" style="float: left; margin-left: 15px;">
+        <img src="img/mapa.jpg" alt="" style="width: 250px;">
+    </div>
+        <div class="card-body" style="float:right; width: 60%;">
+          <div class="row">
+            <div class="col-sm-6">
+                <b style="color: rgb(77, 6, 6);">Información:</b>
+                <li>Telefono: 958922574</li>
+                <li>Correo: lacadena_ferre@gmail.com</li>
+                <b><li><a href="Contenido/politicaSeguridad.html" style="color: rgb(151, 16, 16);">Politica de seguridad</a></li></b>
+            </div>
+
+            <div class="col-sm-6">
+                <b style="color: rgb(77, 6, 6);">Redes Sociales:</b>
+                <div class="redes">
+                    <a href="https://www.facebook.com/"><img src="IMG/redesSociales/fb.png" alt="" width="60" height="50"></a>
+                    <a href="https://web.whatsapp.com/"><img src="IMG/redesSociales/ws.png" alt="" width="60" height="50"></a>
+                    <a href="https://www.instagram.com/"><img src="IMG/redesSociales/ins.png" alt="" width="60" height="50"></a>
+                    <a href="https://www.youtube.com/"><img src="IMG/redesSociales/yt.png" alt="" width="60" height="50"></a>
+                </div>
+            </div>
+          </div>
+        </div>
+</footer>

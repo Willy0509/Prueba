@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+}
+
+/* -------------------------------------------------------------------------- */
+
+header{
+    background-image: url(../IMG/banner.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.contenedorInicio{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tituloPrincipal{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 50px;
+}
+
+#navitem{
+    background-color: rgba(158, 29, 29, 0.788);
+    color: white;
+    min-width: 5em;
+    margin-left: 0.5em;
+}
+
+.img{
+    width: 200px;
+    height: 230px;
+}
+footer{
+    background-image: url(../IMG/piepagina.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.facebookbtn{
+    border-radius: 1rem;
+    background-color: rgb(18, 117, 209);
+    padding: 0.5rem 1.5rem;
+    color:black;
+    font-size: 15px;
+    text-align: center;
+    width: 15rem;
+    height: 2.5rem;
+}
+.form-label{
+    text-align: center;
+}
